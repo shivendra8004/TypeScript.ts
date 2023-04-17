@@ -5,7 +5,7 @@ import { Greet } from "./components/Greet";
 function App() {
   return (
     <div className="App">
-      <Greet name="Shivendra" />
+      <Greet name="Shivendra" messageCount={20} isLoggedIn={true} />
     </div>
   );
 }
