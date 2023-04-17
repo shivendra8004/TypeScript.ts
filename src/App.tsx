@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import Status from "./components/Status";
 import Heading from "./components/Heading";
@@ -13,7 +12,7 @@ function App() {
       <Oscar>
         <Heading>Hello Guys, Jai Shree Ram</Heading>
       </Oscar>
-      <Greet name="Shiv" isLoggedIn={false} />
+      <Greet name="Shiv" messageCount={12} isLoggedIn={true} />
     </div>
   );
 }
