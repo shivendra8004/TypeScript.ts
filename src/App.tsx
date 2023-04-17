@@ -3,6 +3,7 @@ import Status from "./components/Status";
 import Heading from "./components/Heading";
 import Oscar from "./components/Oscar";
 import Greet from "./components/Greet";
+import Button from "./components/Button";
 
 function App() {
   return (
@@ -13,6 +14,11 @@ function App() {
         <Heading>Hello Guys, Jai Shree Ram</Heading>
       </Oscar>
       <Greet name="Shiv" messageCount={12} isLoggedIn={true} />
+      <Button
+        handleClick={() => {
+          console.log("Button Clicked");
+        }}
+      />
     </div>
   );
 }
