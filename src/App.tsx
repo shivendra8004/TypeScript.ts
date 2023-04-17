@@ -15,8 +15,8 @@ function App() {
       </Oscar>
       <Greet name="Shiv" messageCount={12} isLoggedIn={true} />
       <Button
-        handleClick={() => {
-          console.log("Button Clicked");
+        handleClick={(e) => {
+          console.log("Button Clicked", e);
         }}
       />
     </div>

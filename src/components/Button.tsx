@@ -1,5 +1,5 @@
 type ButtonProp = {
-  handleClick: () => void;
+  handleClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
 };
 const Button = (props: ButtonProp) => {
   return (
