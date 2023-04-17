@@ -1,5 +1,5 @@
 type StatusProps = {
-  status: string;
+  status: "loading" | "error" | "success";
 };
 const Status = (props: StatusProps) => {
   let message;
