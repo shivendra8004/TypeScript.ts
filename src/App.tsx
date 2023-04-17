@@ -3,6 +3,7 @@ import "./App.css";
 import Status from "./components/Status";
 import Heading from "./components/Heading";
 import Oscar from "./components/Oscar";
+import Greet from "./components/Greet";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Oscar>
         <Heading>Hello Guys, Jai Shree Ram</Heading>
       </Oscar>
+      <Greet name="Shiv" isLoggedIn={false} />
     </div>
   );
 }
