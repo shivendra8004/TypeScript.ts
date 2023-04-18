@@ -1,10 +1,10 @@
 import "./App.css";
-import Input from "./components/Input";
+import Container from "./components/Container";
 
 function App() {
   return (
     <div className="App">
-      <Input inputValue="" onChangeValue={(event) => console.log(event.target.value)} />
+      <Container styles={{ border: "1px solid black", padding: "1rem" }} />
     </div>
   );
 }
